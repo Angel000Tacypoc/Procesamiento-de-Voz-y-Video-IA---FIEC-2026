@@ -52,10 +52,4 @@ if uploaded_file is not None:
                 st.error(f"Error: {e}")
 
 else:
-    st.info("👆 Por favor, sube una imagen para comenzar.")import streamlit as st
-
-st.set_page_config(page_title="Mi App", page_icon="👋")
-
-st.title("Hola Luis 👋")
-st.subheader("Bienvenido a tu nueva App")
-st.write("Esta es una prueba básica de Streamlit.")
+    st.info("👆 Por favor, sube una imagen para comenzar.")
